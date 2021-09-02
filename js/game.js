@@ -75,7 +75,7 @@ class Game{
                  
                  }
                 
-                if(player.score>=2){
+                if(player.score>=5){
                     gameState = 2; 
                     player.rank += 1;
                     Player.updatePlayerAtEnd(player.rank);
